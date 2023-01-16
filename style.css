@@ -1,0 +1,28 @@
+/* font-family: 'Roboto Mono', monospace; */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.clock-container{
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(top left,darkblue,black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: cyan;
+  font-size: 5.5em;
+  font-family: 'Roboto Mono', monospace;
+  gap: 30px;
+}
+
+.hms{
+  display: flex;
+  flex-direction: row;
+}
